@@ -1,6 +1,6 @@
 {
   "name": "foreachain",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A chainable version of forEach",
   "license": "MIT",
   "homepage": "https://github.com/NickKaramoff/foreachain#readme",
