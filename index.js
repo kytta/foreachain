@@ -1,1 +1,4 @@
-var foreachain=function(c,t){return this.forEach(c,t),this}
+function foreachain (callback, thisArg) {
+	this.forEach(callback, thisArg)
+	return this
+}

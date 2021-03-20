@@ -1,1 +1,6 @@
-"use strict";module.exports=function(c,t){return this.forEach(c,t),this};
+"use strict";
+
+module.exports = function (callback, thisArg) {
+	this.forEach(callback, thisArg)
+	return this
+}
