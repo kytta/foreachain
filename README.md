@@ -1,6 +1,6 @@
 # foreachain
 
-A chainable version of `forEach`.
+> The chainable `forEach()`.
 
 ## Why?
 
@@ -20,8 +20,7 @@ And this can't be done in JavaScript in one long chained function call.
        .forEach(v => {console.log(v)});
 ```
 
-But I find the first `map` call unreadable and confusing. So, here is my
-solution.
+But I find the first `map` call unreadable and confusing. So, this is my solution.
 
 ## How?
 
@@ -60,3 +59,7 @@ to your codebase.
 ### List of times I found use for a chainable `forEach`
 
 > I'm still looking...
+
+## License
+
+MIT © 2020-2021 Nikita Karamov
