@@ -21,17 +21,18 @@
     "url": "https://karamoff.dev"
   },
   "type": "module",
-  "module": "index.mjs",
-  "main": "index.cjs",
-  "unpkg": "index.js",
+  "module": "./foreachain.module.js",
+  "main": "./foreachain.common.js",
+  "unpkg": "./foreachain.browser.js",
   "exports": {
-    "require": "./index.cjs",
-    "import": "./index.mjs"
+    "require": "./foreachain.common.js",
+    "import": "./foreachain.module.js"
   },
   "types": "./foreachain.d.ts",
   "files": [
-    "index.js",
-    "index.mjs",
-    "index.cjs"
+    "foreachain.browser.js",
+    "foreachain.common.js",
+    "foreachain.d.ts",
+    "foreachain.module.js"
   ]
 }
