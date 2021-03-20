@@ -1,7 +1,11 @@
 {
   "name": "foreachain",
   "version": "1.0.0",
-  "description": "A chainable version of forEach",
+  "description": "The chainable forEach()",
+  "keywords": [
+    "forEach",
+    "chain"
+  ],
   "license": "MIT",
   "homepage": "https://github.com/NickKaramoff/foreachain#readme",
   "repository": {
@@ -23,8 +27,5 @@
     "index.js",
     "index.mjs",
     "index.cjs"
-  ],
-  "np": {
-    "yarn": false
-  }
+  ]
 }
