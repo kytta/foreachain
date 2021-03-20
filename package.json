@@ -20,9 +20,14 @@
     "email": "nick@karamoff.dev",
     "url": "https://karamoff.dev"
   },
-  "main": "index.cjs",
+  "type": "module",
   "module": "index.mjs",
+  "main": "index.cjs",
   "unpkg": "index.js",
+  "exports": {
+    "require": "./index.cjs",
+    "import": "./index.mjs"
+  },
   "files": [
     "index.js",
     "index.mjs",
