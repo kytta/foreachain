@@ -28,6 +28,7 @@
     "require": "./index.cjs",
     "import": "./index.mjs"
   },
+  "types": "./foreachain.d.ts",
   "files": [
     "index.js",
     "index.mjs",
