@@ -31,7 +31,15 @@ But I find the first `map` call unreadable and confusing. So, this is my solutio
    or
 
    ```html
-   <script src="https://unpkg.com/foreachain"></script>
+   <script src="https://cdn.jsdelivr.net/npm/foreachain/foreachain.browser.min.js"></script>
+   ```
+
+   or (for modern browsers)
+
+   ```html
+   <script type="module">
+      import foreachain from 'https://cdn.jsdelivr.net/npm/foreachain/foreachain.module.min.js';
+   </script>
    ```
 
 2. ```js
