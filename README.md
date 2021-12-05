@@ -74,6 +74,6 @@ to your codebase.
 
 > I'm still looking...
 
-## License
+## Licence
 
-MIT © 2020-2021 Nikita Karamov
+[MIT](https://spdx.org/licenses/MIT.html) © 2020-2021 Nikita Karamov
