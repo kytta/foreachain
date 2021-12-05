@@ -2,6 +2,12 @@
 
 > The chainable `forEach()`.
 
+```js
+[2,3,5].forEachain(v => {console.log(v)})
+       .map(v => v * 3)
+       .forEach(v => {console.log(v)});
+```
+
 ## Why?
 
 I don't really know. I just imagined that there can be a task like this:
