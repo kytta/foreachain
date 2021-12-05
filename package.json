@@ -17,8 +17,8 @@
   },
   "author": {
     "name": "Nikita Karamov",
-    "email": "nick@karamoff.dev",
-    "url": "https://karamoff.dev"
+    "email": "me@kytta.dev",
+    "url": "https://www.kytta.dev/"
   },
   "type": "module",
   "module": "./foreachain.module.js",
